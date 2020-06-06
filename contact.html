@@ -1,69 +1,55 @@
 <html>
 	<head>
 		<title>Contact Us</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-		<style>
-			body {
-				font-size: 52px;
-			}
-
-			@media screen and (max-width: 460px) {
-				body {
-					font-size: 28px;
-				}
-			}
-
-		</style>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
 	</head>
 	<body>
 
 	<form action="https://webhook.site/c8e9ed37-64c2-4009-a9e3-d00c6d8fb357" method="post">
 
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-6">
-				<div class="form-group">
-					<label for="fname">First name:</label>
-					<input class="form-control" type="text" id="fname" name="fname" required placeholder="Jane" value="">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label for="fname">First name:</label>
+						<input class="form-control" type="text" id="fname" name="fname" required placeholder="Jane" value="">	
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label for="lname">Last name:</label>
+						<input class="form-control" type="text" id="lname" name="lname" required placeholder="Doe">
+					</div>
 				</div>
 			</div>
-			<div class="col-sm-6">
-				<div class="form-group">
-					<label for="lname">Last name:</label>
-					<input class="form-control" type="text" id="lname" name="lname" required placeholder="Doe">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label for="email">Email Address:</label>
+						<input class="form-control" type="email" id="email" name="email" required placeholder="jane@example.com">
+					</div>
+
+				</div>
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label for="phone">Telephone Number:</label>
+						<input class="form-control" type="tel" id="phone" name="phone" required placeholder="123-456-7890">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="form-group">
+						<label for="comments">Comments:</label>
+						<textarea class="form-control" name="comments" id="comments" cols="40" rows="5"></textarea>
+					</div>
+					
+					<input type="submit" value="Submit">
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-sm-6">
-				<div class="form-group">
-					<label for="email">Email Address:</label>
-					<input class="form-control" type="email" id="email" name="email" required placeholder="jane@example.com">
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="form-group">
-					<label for="phone">Telephone Number:</label>
-					<input class="form-control" type="tel" id="phone" name="phone" required placeholder="123-456-7890">
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-12">
-				<div class="form-group">
-					<label for="comments">Comments:</label>
-					<textarea class="form-control" name="comments" id="comments" cols="40" rows="5"></textarea>
-				</div>
-				
-				<br>
-				<input type="submit" value="Submit">
-			</div>
-		</div>
-	</div>
 
 	</form>
 
